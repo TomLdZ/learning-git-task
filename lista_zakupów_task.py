@@ -18,3 +18,6 @@ raport = "\n".join(raport_parts)
 print(raport)
 
 print("Zmiana nr 1")
+
+print("Zmiana nr 2")
+
