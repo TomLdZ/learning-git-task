@@ -16,3 +16,5 @@ raport_parts.append(f"W sumie kupuję {prod_quantity} produktów")
 raport = "\n".join(raport_parts)
 
 print(raport)
+
+print("Zmiana nr 1")
