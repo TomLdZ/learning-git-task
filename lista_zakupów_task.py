@@ -6,3 +6,7 @@ raport_parts = []
 
 raport_parts.append("Lista zakupów:")
 
+for shop in shopping_dict:
+    list_capitalized = list(item.capitalize() for item in shopping_dict[shop])
+    raport_parts.append(f"Idę do {shop.capitalize()}, kupuję tu następujące rzeczy: {list_capitalized}")
+    prod_quantity += len(list_capitalized)
